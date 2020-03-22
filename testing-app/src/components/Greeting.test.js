@@ -17,8 +17,10 @@ test("renders greetig on Greeting component", async () => {
 
 //use render method to test a react component
 it('renders without crash', () => {
-    render (
-        <span className="greet">hello world</span>
-        
-    )
+   render (
+        <span className="greet">hello world</span> 
+    );
+    
+
+
 })
